@@ -1,0 +1,64 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f59f7;
+  height: 60px;
+  padding: 0 20px; 
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  color:aliceblue;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.navLink:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 15px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  background-color: aliceblue;
+}
+.pokeballIcon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.pokemonIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+.searchContainer{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.filterContainer{
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,77 @@
+.container{
+  border-radius: 10px;
+  padding: 5px;
+}
+.card {
+    background-color: #f2f2f2da;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card img{
+    width: 80%;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pokeName {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .card .typesContainer {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .card h3 {
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #5564f1;
+  }
+  
+  .typesContainer p {
+    background-color: #ffcc80;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 2px
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+      margin: 5px;
+    }
+    
+    .pokeName {
+      font-size: 1.2rem;
+    }
+    
+    .typesContainer {
+      flex-wrap: wrap;
+      margin-top: 5px;
+      width: 80%;
+    }
+    
+    .typesContainer h3 {
+      margin-right: 5px;
+    }
+    
+    .typesContainer p {
+      margin: 3px;
+    }
+  }
+  

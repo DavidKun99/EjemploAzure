@@ -1,0 +1,87 @@
+/* form.module.css */
+.container {
+  display: flex;
+  width: 90%;
+  margin: 10px;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.imageContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  width: 100%;
+}
+.imageContainer img {
+  width: 80%;
+  justify-self: right;
+  border-radius: 5px;
+}
+
+.formContainer {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer input,
+.formContainer select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.formContainer select {
+  appearance: none; /* Remove default arrow in select */
+}
+
+.formContainer button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.formContainer button:hover {
+  background-color: #0056b3;
+}
+
+.validationMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+.successAlert,
+.errorAlert {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.successAlert {
+  background-color: #dff0d8;
+  color: #3c763d;
+  margin: 10px;
+}
+
+.errorAlert {
+  background-color: #f2dede;
+  color: #a94442;
+}
